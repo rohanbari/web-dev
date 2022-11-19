@@ -8,18 +8,45 @@
         <title>My Website</title>
     </head>
     <body>
-        <div class="headings">
+        <div title="This is a tooltip." class="headings">
             <h1>Welcome to the Web!</h1>
             <h2>Welcome to the Web!</h2>
-            <h3>Welcome to the Web!</h3>
+            <h3>Welcome to the <del>Web</del> <ins>Internet</ins>!</h3>
             <h4>Welcome to the Web!</h4>
             <h5>Welcome to the Web!</h5>
             <h6>Welcome to the Web!</h6>
         </div>
         <p>This is a simple but beautiful paragraph in HTML.</p>
 
-        <img src="./resources/drake-yes.jpg" alt="Drake affirms" /> <br />
+        <table>
+            <tr>
+                <td>
+                    <img src="./resources/drake-yes.jpg" alt="Drake affirms" />
+                </td>
+                <td>
+                    <img src="./resources/drake-no.jpg" alt="Drake negates" />
+                </td>
+            </tr>
+        </table>
         <input type="button" value="Generate Message" onclick="sayHello()" />
+        <br />
+        <strong>Strong texts are used to represent important text.</strong>
+        <br />
+        <q>
+            The <mark>quieter</mark> you become, the more you are able to hear.
+        </q>
+        <blockquote cite="https://en.wikipedia.org/wiki/Dirac_equation">
+            In particle physics, the Dirac equation is a relativistic wave
+            equation derived by British physicist Paul Dirac in 1928. In its
+            free form, or including electromagnetic interactions, it describes
+            all spin-1/2 massive particles, called "Dirac particles", such as
+            electrons and quarks for which parity is a symmetry.
+        </blockquote>
+        <br />
+        <p>The water has the chemical formula: H<sub>2</sub>O <sup>[1]</sup></p>
+        <br />
+        <hr />
+        <p><sup>[1] The data is taken from Wikipedia.</sup></p>
     </body>
     <script src="script.js"></script>
 </html>

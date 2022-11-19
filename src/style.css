@@ -1,4 +1,8 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     background-color: antiquewhite;
+}
+img {
+    height: 300px;
+    width: 400px;
 }
