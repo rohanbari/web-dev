@@ -1,3 +1,3 @@
 function sayHello() {
-    window.alert("Welcome to the Web! Please enjoy here.")
+    window.alert("Welcome to the Web! Please enjoy here.");
 }
